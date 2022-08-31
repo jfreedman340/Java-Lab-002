@@ -34,11 +34,47 @@ Take note of the various variables and their data types. Write a brief summary i
 Next give TWO example variable names and TWO example variable assignments that are *WRONG* and explain why.
 * Hint: your IDE can help you discover these!
 
+## Joseph Freedman's Summary
+### The main variable types are strings, integers, floats, booleans, etc.
+### Here are some examples from the code.
+
+* // integer variable
+* int people = 3;
+* // 32 bit floating point variable
+* float ticketPrice = 14.0f;  // 32 Bit, but it does exist!
+* // double precision floating point variable
+* double itemPrice = 9.0;    // Double precision
+* // boolean variable
+* boolean trueOrFalse = false;
+
+1. Integers are whole numbers
+2. Floats, or floating point numbers are not whole numbers such as 2.7 or 8.03.
+3. Booleans are either True or False, 0 or 1.
+4. A class is an object which can be assigned methods and variables.
+
+### Examples of variables that are wrong.
+
+1. If you wrote int xyz = 5.5; // That would be wrong because it's not a whole number.
+2. If you wrote String xyz = Hello Yoda; // That would be wrong because it's not in quotes.
+3. If you wrote boolean xyz = maybe; // That would be wrong because it's either true or false, not maybe.
+ 
+
 ### Part 3 - Bonus: Play around with Java String Format Specifiers.
 
 Pick several of the Java format specifiers below and define variables of the correct type utilize *sout* and *String.format* to view the resulting formats.
 
 ![Format Specifiers](JavaStringFormatSpecifiers.png)
+
+1. System.out.printf("%d %s%n", 3, "XYZ");
+2. System.out.printf("%s %s%n", "Grade", "A");
+3. System.out.printf("%s %s %s %d %s %d %s %d %s %d %s %d%n", "AAPL:", "Date 8/31/2010:", "Open", 123, "High", 130, "Low", 120, "Close", 125, "Volume", 5306736);
+
+### These are some things I played around with.
+They look like this
+* 3 XYZ
+* Grade A
+* AAPL: Date 8/31/2010: Open 123 High 130 Low 120 Close 125 Volume 5306736
+
 
 ### Part 4 - Submission
 * Commit your working code
